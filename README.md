@@ -1,30 +1,32 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# Pebble Surveys
+- 2017 Silicon Hacks
+- Google Forms Helper
 
+## Purpose
+Many civil improvements could be made if there are more studies, and studies often include conducting research through surveys. If conducting a survey is made easier, it would lead to an easier time doing studies. 
 
-Hi there! Welcome to Cloud9 IDE!
+## Objective
+Simplify the process of conducting a survey. By feeding a Google form to the Pebble, it would generate selection screens. After selections are made, it'll make a URL request to submit the Google Forms
 
-To get you started with C/C++, we have created some small hello world
-applications and a Makefile.
+## Path
+- [x] Menu functionality
+- [x] Menu animations
+- [x] Detect button presses
+- [x] Barebone icons
+- [] Button presses toggles icon image (to emulate ticked checkboxes)
+- [] Send URL request to Google Forms when button is double clicked
+- [] Multiple pages functionality
+- [] Send URL request at the end of the page, and cycle to page 1
+- [] Generate multiple pages through the source Google Forms
+- [] Maintain functionality through generation
+- [] Make settings page on Pebble app for entry of Google Forms URL
+- [] Market & Ship
 
-Have a look at the files, and use the terminal to build them:
+## Contributors
+@ayip001, @nguyen37, @chillchai, @Boberish
 
-    $ make
-    $ ./hello-c-world
-    $ ./hello-cpp-world
+## Prototype Functionality Demo
+https://www.youtube.com/watch?v=NgU1wnNFekA
+Singing: @talglobus
 
-We're sure you can take it from there. Go ahead and edit the code, 
-or add some new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+## Presentation
