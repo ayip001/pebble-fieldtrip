@@ -13,14 +13,14 @@ Simplify the process of conducting a survey. By feeding a Google form to the Peb
 - [x] Menu animations
 - [x] Detect button presses
 - [x] Barebone icons
-- [] Button presses toggles icon image (to emulate ticked checkboxes)
-- [] Send URL request to Google Forms when button is double clicked
-- [] Multiple pages functionality
-- [] Send URL request at the end of the page, and cycle to page 1
-- [] Generate multiple pages through the source Google Forms
-- [] Maintain functionality through generation
-- [] Make settings page on Pebble app for entry of Google Forms URL
-- [] Market & Ship
+- [ ] Button presses toggles icon image (to emulate ticked checkboxes)
+- [ ] Send URL request to Google Forms when button is double clicked
+- [ ] Multiple pages functionality
+- [ ] Send URL request at the end of the page, and cycle to page 1
+- [ ] Generate multiple pages through the source Google Forms
+- [ ] Maintain functionality through generation
+- [ ] Make settings page on Pebble app for entry of Google Forms URL
+- [ ] Market & Ship
 
 ## Contributors
 @ayip001, @nguyen37, @chillchai, @Boberish
@@ -30,3 +30,7 @@ https://www.youtube.com/watch?v=NgU1wnNFekA
 Singing: @talglobus
 
 ## Presentation
+https://docs.google.com/presentation/d/1xUi8sHdRzCMevS2uyh0MKMhNsrzayYk8Xfp37hR6ltQ/edit?usp=sharing
+
+# UPDATE
+[12:32 May 7th 2017] I don't know how we missed it but apparently we have been developing for a legacy device ayy lmao -Angus
