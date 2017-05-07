@@ -15,7 +15,7 @@ static bool s_special_flag = false;
 static int s_hit_count = 0;
 
 static void menu_select_callback(int index, void *ctx) {
-  s_first_menu_items[index].subtitle = "You've hit select here!";
+  s_first_menu_items[index].subtitle = "selected";
   layer_mark_dirty(simple_menu_layer_get_layer(s_simple_menu_layer));
 
 }
@@ -28,13 +28,13 @@ static void special_select_callback(int index, void *ctx) {
   SimpleMenuItem *menu_item = &s_second_menu_items[index];
 
   if (s_special_flag) {
-    menu_item->subtitle = "Okay, it's not so special.";
+    menu_item->subtitle = "";
   } else {
-    menu_item->subtitle = "Well, maybe a little.";
+    menu_item->subtitle = "";
   }
 
   if (++s_hit_count > 5) {
-    menu_item->title = "Very Special Item";
+    menu_item->title = "";
   }
 
   layer_mark_dirty(simple_menu_layer_get_layer(s_simple_menu_layer));
@@ -53,18 +53,18 @@ static void main_window_load(Window *window) {
   };
   s_first_menu_items[num_a_items++] = (SimpleMenuItem) {
     .title = "option b",
-    .subtitle = "Here's a subtitle",
+    .subtitle = "",
     .callback = menu_select_callback,
   };
   s_first_menu_items[num_a_items++] = (SimpleMenuItem) {
     .title = "option c",
-    .subtitle = PBL_IF_RECT_ELSE("This has an icon", "Item number three"),
+    .subtitle = PBL_IF_RECT_ELSE("", "Item number three"),
     .callback = menu_select_callback,
     .icon = PBL_IF_RECT_ELSE(s_menu_icon_image, NULL),
   };
 
   s_second_menu_items[0] = (SimpleMenuItem) {
-    .title = "Special Item",
+    .title = "",
     .callback = special_select_callback,
   };
 
@@ -73,7 +73,7 @@ static void main_window_load(Window *window) {
     .items = s_first_menu_items,
   };
   s_menu_sections[1] = (SimpleMenuSection) {
-    .title = PBL_IF_RECT_ELSE("Yet Another Section", NULL),
+    .title = PBL_IF_RECT_ELSE("", NULL),
     .num_items = NUM_SECOND_MENU_ITEMS,
     .items = s_second_menu_items,
   };
