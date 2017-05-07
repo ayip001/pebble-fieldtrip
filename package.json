@@ -1,21 +1,32 @@
 {
-    "author": "ayip002@gmail.com",
+    "author": "Pebble Technology",
     "dependencies": {},
     "keywords": [],
-    "name": "pepple-fieldtrip",
+    "name": "simple-menu",
     "pebble": {
-        "displayName": "pepple-fieldtrip",
+        "displayName": "Simple Menu",
         "enableMultiJS": false,
-        "messageKeys": [],
+        "messageKeys": {},
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/menu_icon_simplicity.png",
+                    "name": "IMAGE_MENU_ICON_1",
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
-        "uuid": "29da9118-8f15-47ee-bbbf-38e726fc260d",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "69a53987-379e-4ae7-a3c2-d08e5ffe8511",
         "watchapp": {
             "watchface": false
         }
     },
-    "version": "1.0.0"
+    "version": "2.0.0"
 }
