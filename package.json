@@ -1,0 +1,21 @@
+{
+    "author": "ayip002@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pepple-fieldtrip",
+    "pebble": {
+        "displayName": "pepple-fieldtrip",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "uuid": "29da9118-8f15-47ee-bbbf-38e726fc260d",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
